@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+
+}
+
+
+header {
+    width: 100%;
+    background-color: rgb(255, 240, 246);
+}
+
+.section {
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+h1 {
+    font-size: 34px;
+    margin-bottom: 30px;
+    color: #544342;
+}
+
+span{
+    color: #d53f58;
+}
+
+strong {
+    color: #817271;
+    font-size: 12px;
+
+    background-color: transparent;
+    text-decoration: none;
+    
+    display: none;
+}
+
+/* HEADER */
+
+.navigation {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    color: #FF9999;
+
+
+    background-color: transparent;
+    border: none;
+    font-family: 'Bacasime Antique', serif;
+
+    cursor: pointer;
+
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+ion-icon {
+    text-decoration: none;
+    color: rgb(110, 85, 85);
+    font-size: 25px;
+    font-weight: 500;
+    transition: .1s linear;
+}
+
+
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(233, 222, 222);
+    padding: 5px 15px;
+}
+
+
+
+
+/* MAIN PAGE */
+
+.info-title {
+    font-size: 28px;
+    color: #544342;
+    margin: 20px 0;
+}
+
+.info-text {
+    font-size: 22px;
+    color: #544342;
+}
+
+
+.product-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-info{
+    width: 50%;
+    
+}
+
+.desc-points{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addtocart-btn {
+    width: 40%;
+    margin-top: 50px;
+    padding: 12px;
+    border: none;
+    background-color: #544342;
+    color: white;
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+
+    transition: .2s linear;
+}
+
+.addtocart-btn:hover {
+    background-color: #FF9999;
+    color: black;
+    cursor: pointer;
+}

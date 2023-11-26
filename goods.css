@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+}
+
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background-color: rgb(255, 240, 246);
+}
+
+
+.navigation {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    color: #FF9999;
+
+
+    background-color: transparent;
+    border: none;
+    font-family: 'Bacasime Antique', serif;
+
+    cursor: pointer;
+
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+ion-icon {
+    text-decoration: none;
+    color: rgb(110, 85, 85);
+    font-size: 25px;
+    font-weight: 500;
+    transition: .1s linear;
+}
+
+
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(233, 222, 222);
+    padding: 5px 15px;
+}
+
+
+
+/* ITEMS */
+
+
+
+.popular-items{
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    gap: 20px;
+}
+
+.often-buy-item{
+    width: 250px;
+    max-height: 380px;
+
+    box-shadow: 5px 5px 50px rgb(220, 218, 218);
+}
+
+.often-buy-item img {
+    margin-bottom: 20px;
+
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+
+}
+
+.titles{
+    margin-left: 15px;
+}
+
+.titles h3{
+    margin-bottom: 3px;
+}
+
+
+.addtocart-btn {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    border: none;
+    background-color: rgb(250, 250, 250);
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+
+    transition: .2s linear;
+}
+
+.addtocart-btn:hover {
+    background-color: #FF9999;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}

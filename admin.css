@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    background-color: rgb(255, 240, 246);
+}
+
+
+.navigation {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    color: #FF9999;
+
+
+    background-color: transparent;
+    border: none;
+    font-family: 'Bacasime Antique', serif;
+
+    text-decoration: none;
+    cursor: pointer;
+
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+ion-icon {
+    text-decoration: none;
+    color: rgb(110, 85, 85);
+    font-size: 25px;
+    font-weight: 500;
+    transition: .1s linear;
+}
+
+
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search {
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(233, 222, 222);
+    padding: 5px 15px;
+}
+
+/* MAIN PAGE */
+
+
+.admin-panel{
+    width: 100%;
+
+    display: flex;
+    
+}
+
+.admin-usage{
+    width: 20%;
+    height: 92vh;
+
+    padding: 20px 10px;
+
+    background-color: rgb(245, 131, 142);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin-interface{
+    width:60%;
+    height: 92vh;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.admin-profile{
+    width: 20%;
+    height: 92vh;
+    background-color: rgb(245, 131, 142);
+
+    padding: 10px;
+}
+
+h3{
+    text-align: center;
+}
+
+.pict{
+    width: 170px;
+    height: 170px;
+    background-color: gray;
+
+    margin: 0 auto;
+}
+
+h5{
+    width: 200px;
+    height: 30px;
+
+    margin-bottom: 25px;
+    font-size: 18px;
+
+    background-color: aliceblue;
+    border-radius: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    transition: .2s ease;
+}
+
+
+h5:hover{
+    margin-left: 30px;
+}
+
+
+
+
+/* UPLOAD */
+
+.addprod{
+    display: none;
+}
+
+.addform{
+
+    max-width: 650px;
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+
+    border-radius: 10px;
+    box-shadow: 0 10px 15px gray;
+
+    
+}
+
+.updprod{
+    display: none;
+}
+
+.updform{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.price{
+    width: 50px;
+}
+
+.delprod{
+    display: none;
+}
+
+.delform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input{
+    margin-bottom: 10px;
+}
+
+.pic{
+
+    width: 114px;
+    height: 21px;
+}
+
+
+.desc{
+    width: 250px;
+    height: 130px;
+
+    padding: 0 5px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 8px;
+    border: none;
+    color: black;
+
+    margin: 5px 0 15px;
+    padding: 10px;
+}
+
+.res{
+    width: 250px;
+    height: 90px;
+
+    padding: 0 5px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 8px;
+    border: none;
+    color: black;
+
+    margin: 5px 0 15px;
+    padding: 10px;
+}
+
+.lh{
+    width: 250px;
+    height: 50px;
+
+    padding: 0 5px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 8px;
+    border: none;
+    color: black;
+
+    margin: 5px 0 15px;
+    padding: 10px;
+}
+
+label{
+    font-size: 18px;
+}
+
+.name{
+    width: 150px;
+    height: 30px;
+
+    padding: 0 5px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 8px;
+    border: none;
+    color: black;
+
+    margin: 5px 0 15px;
+
+}
+
+
+.sendbtn{
+
+    border: none;
+    border-radius: 15px;
+
+    width: 130px;
+    height: 40px;
+
+    background: rgb(252, 69, 100);
+
+    transition: .2s ease;
+
+}
+
+.sendbtn:hover{
+
+    cursor: pointer;
+    background: rgb(243, 119, 140);
+}
+
+
+/* INFO */
+td{
+    padding: 0 10px;
+    height: 100px;
+}
+
+.info-table{
+    display: none;
+}
+
+.show{
+    display: block;
+
+}
